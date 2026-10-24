@@ -225,36 +225,6 @@ function renderEditorialView(currentStory, totalCartCount) {
         <span style="color:var(--aigner-black); font-weight:800;">${currentStory.title}</span>
       </nav>
 
-      <!-- Editorial Header Card -->
-      <section class="editorial-title-header">
-        <div class="title-tag-line">
-          <span class="editorial-badge-pill">${currentStory.badge}</span>
-          <span style="font-size:12px; font-weight:700; color:var(--aigner-gold); letter-spacing:2px;">FW26 MILAN COLLECTION</span>
-        </div>
-        <h1 class="editorial-hero-title">${currentStory.title}</h1>
-        <div class="editorial-sub-headline">${currentStory.subtitle}</div>
-        
-        <div class="editorial-author-bar">
-          <div class="author-meta-block">
-            <div class="author-avatar-circle">
-              <img src="${BRAND_DATA.logoWhite}" alt="" role="presentation" />
-            </div>
-            <div class="author-text-info">
-              <div class="author-name-text">
-                <span>${BRAND_DATA.name}</span>
-                <span class="official-boutique-pill">OFFICIAL BOUTIQUE</span>
-              </div>
-              <div class="editorial-stats-row">
-                <span>${currentStory.regDate}</span>
-                <span>·</span>
-                <span>조회 ${currentStory.readCount.toLocaleString()}</span>
-                <span>·</span>
-                <span>좋아요 ${state.storyLikes}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <!-- Two-Column Editorial & Sticky Sidebar Layout -->
       <div class="editorial-grid-layout">
