@@ -621,17 +621,6 @@ function renderFooter() {
             </div>
           </div>
 
-          <!-- Column 3 — BOUTIQUE LOCATIONS -->
-          <div class="footer-col footer-col-locations">
-            <div class="footer-col-header">BOUTIQUE LOCATIONS</div>
-            <div class="footer-links-vertical" role="navigation" aria-label="부티크 매장 위치">
-              <button class="footer-link-item" data-open-store="flagship" type="button">Interview553 Seoul Flagship</button>
-              <button class="footer-link-item" data-open-store="galleria" type="button">Galleria Luxury Hall East</button>
-              <button class="footer-link-item" data-open-store="lotte" type="button">Lotte Main Department Store</button>
-              <button class="footer-link-item" data-open-store="shinsegae" type="button">Shinsegae Gangnam Boutique</button>
-              <button class="footer-link-item" data-open-store="hyundai" type="button">Hyundai Apgujeong Main Store</button>
-            </div>
-          </div>
 
           <!-- Column 4 — INTERVIEW553 PRIVILEGE -->
           <div class="footer-col footer-col-privilege">

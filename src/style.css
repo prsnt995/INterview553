@@ -1463,8 +1463,8 @@ img {
 
 .footer-columns-row {
   display: grid;
-  grid-template-columns: 1.35fr 1.05fr 1.05fr 1.25fr;
-  gap: 48px;
+  grid-template-columns: 1.3fr 1fr 1.25fr;
+  gap: 56px;
   padding-bottom: 52px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 32px;
