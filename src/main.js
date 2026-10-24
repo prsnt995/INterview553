@@ -604,6 +604,9 @@ function renderFooter() {
             <div class="footer-operator-info">
               공식 운영사: 주식회사 유닉유니온
             </div>
+            <div class="footer-developer-info">
+              개발 / Developer: <a href="https://www.noeulenterprises.com" target="_blank" rel="noopener noreferrer" class="footer-dev-link">Noeul Enterprises</a>
+            </div>
           </div>
 
           <!-- Column 2 — CLIENT SERVICE -->
@@ -662,7 +665,11 @@ function renderFooter() {
             <span>공식 고객상담 이메일: <a href="mailto:${BRAND_DATA.businessInfo.email}" class="footer-legal-link">${BRAND_DATA.businessInfo.email}</a></span>
           </div>
           <div class="footer-legal-row footer-copyright-row">
-            <span>© 2026 INTERVIEW553 & UNIC UNION CO., LTD. ALL RIGHTS RESERVED.</span>
+            <div class="footer-copyright-left">
+              <span>© 2026 INTERVIEW553 & UNIC UNION CO., LTD. ALL RIGHTS RESERVED.</span>
+              <span class="footer-legal-divider">·</span>
+              <span class="footer-dev-credit">Developer: <a href="https://www.noeulenterprises.com" target="_blank" rel="noopener noreferrer" class="footer-dev-link">Noeul Enterprises</a></span>
+            </div>
             <div class="footer-legal-sublinks">
               <button type="button" class="footer-legal-sublink" id="footer-btn-terms">이용약관</button>
               <span class="footer-legal-divider">|</span>

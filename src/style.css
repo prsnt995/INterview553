@@ -1528,6 +1528,38 @@ img {
   letter-spacing: 0.2px;
 }
 
+.footer-developer-info {
+  color: #6b7280;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin-top: 5px;
+}
+
+.footer-dev-link {
+  color: #c5a880;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.footer-dev-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-copyright-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-dev-credit {
+  color: #6b7280;
+}
+
 /* Col 2: Client Service */
 .footer-phone-block {
   margin-bottom: 16px;
